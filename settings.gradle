@@ -1,0 +1,4 @@
+include ':swipelayout'
+include ':app'
+project(':swipelayout').projectDir = new File(rootDir, 'libs/swipelayout/')
+rootProject.name = "SwipeLayout"
